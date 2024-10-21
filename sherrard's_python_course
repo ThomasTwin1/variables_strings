@@ -1,0 +1,71 @@
+# Variables are containers for values such as strings, integers, floats and booleans
+# Variables behavior is dependent on the value that it contains
+first_name = "Sherrard"
+
+print(first_name)# Prints the value of the variable first_name
+
+print("first_name")# Prints the word first_name because the quotations turn the variable to a string
+
+print(f"{first_name}")# Prints the value of the variable first_name using f string
+#                       f strings allow variable values to be printed while in quotation marks
+#                       The f stands for format
+
+# Strings are a series of characters within single or double quotation marks
+# A character refers to any individual letter, number, symbol, space and even emojis that can be inputted:
+
+# Letters (A-Z, a-z)
+"Sherrard"
+'Sherrard'
+
+# Numbers (0-9)
+"1234"
+'1234'
+
+# Symbols
+"@#$%"
+'@#$%'
+
+# Emojis (shortcut: press windows key and period together)
+"😀😁😂🤣"
+'😀😁😂🤣'
+
+# Punctuation marks
+". , ! ? ; :"
+'. , ! ? ; :'
+
+# White space (tab or space bar)
+"    "
+'    '
+
+# White space new line (use triple single quotation marks
+'''
+'''
+
+
+
+
+
+
+# A character on a keyboard refers to any individual letter, number, symbol, or space that can be inputted. This includes:
+
+# Alphanumeric Characters:
+
+# Letters (A-Z, a-z)
+# Digits (0-9)
+# Special Characters:
+
+# Punctuation marks (e.g., ., !, ?, ;, etc.)
+# Symbols (e.g., @, #, $, %, &, *, etc.)
+# Whitespace:
+
+# Space (the space bar)
+# Tab (produced by the Tab key)
+# Newline (produced by the Enter key)
+
+
+# It's best practice to use double quotation marks because many words
+
+
+
+
+
