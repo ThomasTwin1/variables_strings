@@ -1,0 +1,28 @@
+#Personal Message
+#store a name in a variable a write a message to the person using a f string
+name = "Sherrard"
+print(f"Hello {name} nice to meet you")
+
+
+#Name Cases
+#store a name in a variable, then print that persons name using lower, upper, and titlecase method
+name = "Rod"
+print(name.lower())
+print(name.upper())
+print(name.title())
+
+#Famous Quote
+#Find a famous quote then print it using double quotations inside single quotations, then vice versa
+print('"When you teach something you get to learn it twice. Jim Quik')
+print("'When you teach something you get to learn it twice. Jim Quik'")
+
+#Stripping Names
+#store a name in a variable, then print it using lstrip, rstrip and strip methods
+name = "    Kai     "
+print(name)
+print(name.lstrip())
+print(name.rstrip())
+print(name.strip())
+
+
+
