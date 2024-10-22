@@ -1,71 +1,50 @@
-# Variables are containers for values such as strings, integers, floats and booleans
-# Variables behavior is dependent on the value that it contains
+# Variables are containers for storing values such as strings, integers, floats, and booleans.
+# The behavior of a variable depends on the value it contains.
+
+# Example variable
 first_name = "Sherrard"
 
-print(first_name)# Prints the value of the variable first_name
+# Print the value of the variable first_name
+print(first_name)  # Outputs: Sherrard
 
-print("first_name")# Prints the word first_name because the quotations turn the variable to a string
+# Print the string "first_name"
+print("first_name")  # Outputs: first_name
 
-print(f"{first_name}")# Prints the value of the variable first_name using f string
-#                       f strings allow variable values to be printed while in quotation marks
-#                       The f stands for format
+# Print the value of first_name using an f-string for formatted output
+print(f"{first_name}")  # Outputs: Sherrard
+# The 'f' in f-string allows embedding variable values within strings.
 
-# Strings are a series of characters within single or double quotation marks
-# A character refers to any individual letter, number, symbol, space and even emojis that can be inputted:
+# Strings are sequences of characters enclosed in single or double quotation marks.
+# Examples of different types of strings:
 
 # Letters (A-Z, a-z)
-"Sherrard"
-'Sherrard'
+letters_example_1 = "Sherrard"
+letters_example_2 = 'Sherrard'
 
 # Numbers (0-9)
-"1234"
-'1234'
+numbers_example_1 = "1234"
+numbers_example_2 = '1234'
 
 # Symbols
-"@#$%"
-'@#$%'
+symbols_example = "@#$%"
 
-# Emojis (shortcut: press windows key and period together)
-"😀😁😂🤣"
-'😀😁😂🤣'
+# Emojis (shortcut: press Windows key + period)
+emojis_example = "😀😁😂🤣"
 
 # Punctuation marks
-". , ! ? ; :"
-'. , ! ? ; :'
+punctuation_example = ". , ! ? ; :"
 
-# White space (tab or space bar)
-"    "
-'    '
-
-# White space new line (use triple single quotation marks
-'''
+# Whitespace (using spaces)
+whitespace_example = "    "  # Four spaces
+# Newline can be represented using triple single quotes
+newline_example = ''' 
 '''
 
+# A character refers to any individual letter, number, symbol, or space that can be inputted.
+# This includes:
+# - Alphanumeric Characters: A-Z, a-z, 0-9
+# - Special Characters: Punctuation marks (., !, ?, ;, etc.), Symbols (@, #, $, %, &, *, etc.)
+# - Whitespace: Space (space bar), Tab (Tab key), Newline (Enter key)
 
-
-
-
-
-# A character on a keyboard refers to any individual letter, number, symbol, or space that can be inputted. This includes:
-
-# Alphanumeric Characters:
-
-# Letters (A-Z, a-z)
-# Digits (0-9)
-# Special Characters:
-
-# Punctuation marks (e.g., ., !, ?, ;, etc.)
-# Symbols (e.g., @, #, $, %, &, *, etc.)
-# Whitespace:
-
-# Space (the space bar)
-# Tab (produced by the Tab key)
-# Newline (produced by the Enter key)
-
-
-# It's best practice to use double quotation marks because many words
-
-
-
-
-
+# Best practice is to use double quotation marks for strings in Python,
+# but both single and double quotes are valid.
